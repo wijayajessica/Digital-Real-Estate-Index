@@ -1,1 +1,1 @@
-# DigitalRealEstateIndex
+# Digital Real Estate Index
