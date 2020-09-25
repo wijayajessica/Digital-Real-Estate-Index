@@ -1,751 +1,750 @@
 ### First American avm table
 
-avm.propertyid
+avm.propertyid (22328102)
 
-avm.fips
+avm.fips (08001)
 
-avm.apn
+avm.apn (1571-32-2-09-244)
 
-avm.situsstdhousenbr
+avm.situsstdhousenbr (12784)
 
-avm.situsstdhousenbr2
+avm.situsstdhousenbr2 (None)
 
-avm.situsstdhousenbrsuffix
+avm.situsstdhousenbrsuffix (None)
 
-avm.situsstddirectionleft
+avm.situsstddirectionleft (None)
 
-avm.situsstdstreet
+avm.situsstdstreet (LEYDEN)
 
-avm.situsstdmode
+avm.situsstdmode (ST)
 
-avm.situsstddirectionright
+avm.situsstddirectionright (None)
 
-avm.situsstdunittype
+avm.situsstdunittype (UNIT)
 
-avm.situsstdunitnbr
+avm.situsstdunitnbr (C)
 
-avm.situsstdcity
+avm.situsstdcity (THORNTON)
 
-avm.situsstdstate
+avm.situsstdstate (CO)
 
-avm.situsstdzip5
+avm.situsstdzip5 (80602)
 
-avm.situsstdzip4
+avm.situsstdzip4 (5269)
 
-avm.situsstdcarriercode
+avm.situsstdcarriercode (R022)
 
-avm.final_value
+avm.final_value (334273)
 
-avm.high
+avm.high (383349)
 
-avm.low
+avm.low (285198)
 
-avm.stdev
+avm.stdev (0.1468)
 
-avm.valuation_date
+avm.valuation_date (2018-05-23)
 
 ### First American property table
 
-property.propertyid
 
-property.fips
+property.propertyid (164995828)
 
-property.formattedapn
+property.fips (37081)
 
-property.apnseqnbr
+property.formattedapn (0228479)
 
-property.oldapn
+property.apnseqnbr (None)
 
-property.taxaccountnumber
+property.oldapn (6990776143-000)
 
-property.situsstdfullstreetaddress
+property.taxaccountnumber (None)
 
-property.situsstdhousenbr
+property.situsstdfullstreetaddress (8880 COLGATE RD)
 
-property.situsstdhousenbrsuffix
+property.situsstdhousenbr (8880)
 
-property.situsstddirectionleft
+property.situsstdhousenbrsuffix (None)
 
-property.situsstdstreet
+property.situsstddirectionleft (None)
 
-property.situsstdmode
+property.situsstdstreet (COLGATE)
 
-property.situsstddirectionright
+property.situsstdmode (RD)
 
-property.situsstdunittype
+property.situsstddirectionright (None)
 
-property.situsstdunitnbr
+property.situsstdunittype (None)
 
-property.situsstdhousenbr2
+property.situsstdunitnbr (None)
 
-property.situsstdcity
+property.situsstdhousenbr2 (None)
 
-property.situsstdstate
+property.situsstdcity (STOKESDALE)
 
-property.situsstdzip5
+property.situsstdstate (NC)
 
-property.situsstdzip4
+property.situsstdzip5 (27357)
 
-property.situsstdcarriercode
+property.situsstdzip4 (9262)
 
-property.situslatitude
+property.situsstdcarriercode (R093)
 
-property.situslongitude
+property.situslatitude (36.240969)
 
-property.situsgeostatuscode
+property.situslongitude (-80.018759)
 
-property.propertyclassid
+property.situsgeostatuscode (9)
 
-property.stdlandusecode
+property.propertyclassid (A)
 
-property.statelandusecode
+property.stdlandusecode (7000)
 
-property.countylandusecode
+property.statelandusecode (None)
 
-property.zoning
+property.countylandusecode (None)
 
-property.situscensustract
+property.zoning (CZ-RS-30)
 
-property.mobilehomeind
+property.situscensustract (015901)
 
-property.timesharecode
+property.mobilehomeind (None)
 
-property.schooldistrictname
+property.timesharecode (None)
 
-property.lotsizefrontagefeet
+property.schooldistrictname (None)
 
-property.lotsizedepthfeet
+property.lotsizefrontagefeet (None)
 
-property.lotsizeacres
+property.lotsizedepthfeet (0)
 
-property.lotsizesqft
+property.lotsizeacres (5620)
 
-property.ownerstd1corpind
+property.lotsizesqft (244807)
 
-property.ownerstd1lastname
+property.ownerstd1corpind (None)
 
-property.ownerstd1firstname
+property.ownerstd1lastname (EHLENFELDT)
 
-property.ownerstd1middlename
+property.ownerstd1firstname (WAYNE)
 
-property.ownerstd1suffix
+property.ownerstd1middlename (V)
 
-property.ownerstd2corpind
+property.ownerstd1suffix (None)
 
-property.ownerstd2lastname
+property.ownerstd2corpind (None)
 
-property.ownerstd2firstname
+property.ownerstd2lastname (EHLENFELDT)
 
-property.ownerstd2middlename
+property.ownerstd2firstname (CHERYL)
 
-property.ownerstd2suffix
+property.ownerstd2middlename (None)
 
-property.ownerstdname1full
+property.ownerstd2suffix (None)
 
-property.ownerstdname2full
+property.ownerstdname1full (EHLENFELDT WAYNE V)
 
-property.owneroccupied
+property.ownerstdname2full (EHLENFELDT CHERYL)
 
-property.ownerstd1ownershiprights
+property.owneroccupied (None)
 
-property.mailingstdfullstreetaddress
+property.ownerstd1ownershiprights (None)
 
-property.mailingstdhousenbr
+property.mailingstdfullstreetaddress (1160 FAIRWATER RD)
 
-property.mailingstdhousenbr2
+property.mailingstdhousenbr (1160)
 
-property.mailingstdhousenbrsuffix
+property.mailingstdhousenbr2 (None)
 
-property.mailingstddirectionleft
+property.mailingstdhousenbrsuffix (None)
 
-property.mailingstdstreet
+property.mailingstddirectionleft (None)
 
-property.mailingstdmode
+property.mailingstdstreet (FAIRWATER)
 
-property.mailingstddirectionright
+property.mailingstdmode (RD)
 
-property.mailingstdunittype
+property.mailingstddirectionright (None)
 
-property.mailingstdunitnbr
+property.mailingstdunittype (None)
 
-property.mailingstdcity
+property.mailingstdunitnbr (None)
 
-property.mailingstdstate
+property.mailingstdcity (ALTURA)
 
-property.mailingstdzip5
+property.mailingstdstate (MN)
 
-property.mailingstdzip4
+property.mailingstdzip5 (55910)
 
-property.mailingstdcarriercode
+property.mailingstdzip4 (4188)
 
-property.mailingoptout
+property.mailingstdcarriercode (R002)
 
-property.assdtotalvalue
+property.mailingoptout (None)
 
-property.assdlandvalue
+property.assdtotalvalue (87900)
 
-property.assdimprovementvalue
+property.assdlandvalue (87900)
 
-property.markettotalvalue
+property.assdimprovementvalue (0)
 
-property.marketvalueland
+property.markettotalvalue (87900)
 
-property.marketvalueimprovement
+property.marketvalueland (87900)
 
-property.taxamount
+property.marketvalueimprovement (0)
 
-property.taxyear
+property.taxamount (73001)
 
-property.taxdeliquentyear1
+property.taxyear (2020)
 
-property.assdyear
+property.taxdeliquentyear1 (None)
 
-property.taxratecodearea
+property.assdyear (2020)
 
-property.schooltaxdistrict1code
+property.taxratecodearea (None)
 
-property.schooltaxdistrict2code
+property.schooltaxdistrict1code (STOKESDALE)
 
-property.schooltaxdistrict3code
+property.schooltaxdistrict2code (None)
 
-property.homesteadind
+property.schooltaxdistrict3code (None)
 
-property.veteranind
+property.homesteadind (None)
 
-property.disabledind
+property.veteranind (None)
 
-property.widowind
+property.disabledind (None)
 
-property.seniorind
+property.widowind (None)
 
-property.schoolcollegeind
+property.seniorind (None)
 
-property.religiousind
+property.schoolcollegeind (None)
 
-property.welfareind
+property.religiousind (None)
 
-property.publicutilityind
+property.welfareind (None)
 
-property.cemeteryind
+property.publicutilityind (None)
 
-property.hospitalind
+property.cemeteryind (None)
 
-property.libraryind
+property.hospitalind (None)
 
-property.buildingarea
+property.libraryind (None)
 
-property.buildingareaind
+property.buildingarea (0)
 
-property.sumbuildingsqft
+property.buildingareaind (None)
 
-property.sumlivingareasqft
+property.sumbuildingsqft (0)
 
-property.sumgrossareasqft
+property.sumlivingareasqft (None)
 
-property.sumgroundfloorsqft
+property.sumgrossareasqft (None)
 
-property.sumadjareasqft
+property.sumgroundfloorsqft (None)
 
-property.sumbasementsqft
+property.sumadjareasqft (None)
 
-property.sumgaragesqft
+property.sumbasementsqft (None)
 
-property.yearbuilt
+property.sumgaragesqft (None)
 
-property.effectiveyearbuilt
+property.yearbuilt (None)
 
-property.bedrooms
+property.effectiveyearbuilt (None)
 
-property.totalrooms
+property.bedrooms (0)
 
-property.bathtotalcalc
+property.totalrooms (0)
 
-property.bathfull
+property.bathtotalcalc (0.00)
 
-property.bathsparcialnbr
+property.bathfull (0)
 
-property.bathfixturesnbr
+property.bathsparcialnbr (0)
 
-property.airconditioningcode
+property.bathfixturesnbr (None)
 
-property.basementcode
+property.airconditioningcode (None)
 
-property.buildingclasscode
+property.basementcode (None)
 
-property.buildingconditioncode
+property.buildingclasscode (None)
 
-property.constructiontypecode
+property.buildingconditioncode (None)
 
-property.exteriorwallscode
+property.constructiontypecode (None)
 
-property.interiorwallscode
+property.exteriorwallscode (None)
 
-property.fireplacecode
+property.interiorwallscode (None)
 
-property.floorcovercode
+property.fireplacecode (None)
 
-property.floortypecode
+property.floorcovercode (None)
 
-property.garage
+property.floortypecode (None)
 
-property.heatcode
+property.garage (None)
 
-property.heatingfueltypecode
+property.heatcode (None)
 
-property.siteinfluencecode
+property.heatingfueltypecode (None)
 
-property.garageparkingnbr
+property.siteinfluencecode (None)
 
-property.drivewaycode
+property.garageparkingnbr (0)
 
-property.patiocode
+property.drivewaycode (None)
 
-property.poolcode
+property.patiocode (None)
 
-property.porchcode
+property.poolcode (None)
 
-property.buildingqualitycode
+property.porchcode (None)
 
-property.roofcovercode
+property.buildingqualitycode (None)
 
-property.rooftypecode
+property.roofcovercode (None)
 
-property.sewercode
+property.rooftypecode (None)
 
-property.storiesnbrcode
+property.sewercode (None)
 
-property.stylecode
+property.storiesnbrcode (None)
 
-property.sumresidentialunits
+property.stylecode (None)
 
-property.sumbuildingsnbr
+property.sumresidentialunits (0)
 
-property.sumcommercialunits
+property.sumbuildingsnbr (0)
 
-property.watercode
+property.sumcommercialunits (None)
 
-property.lotcode
+property.watercode (None)
 
-property.lotnumber
+property.lotcode (None)
 
-property.lotirregularind
+property.lotnumber (64)
 
-property.landlot
+property.lotirregularind (None)
 
-property.block
+property.landlot (None)
 
-property.section
+property.block (None)
 
-property.district
+property.section (None)
 
-property.legalunit
+property.district (16)
 
-property.municipality
+property.legalunit (None)
 
-property.subdivisionname
+property.municipality (OAK RIDGE)
 
-property.subdivisionphasenbr
+property.subdivisionname (None)
 
-property.subdivisiontractnbr
+property.subdivisionphasenbr (None)
 
-property.meridian
+property.subdivisiontractnbr (None)
 
-property.assessorsmapref1
+property.meridian (None)
 
-property.legaldescription
+property.assessorsmapref1 (None)
 
-property.fatimestamp
+property.legaldescription (BELEWS RIDGE LO64 PH3)
 
-property.faucidflag
+property.fatimestamp (2020-09-21 00:00:00)
 
-property.viewcode
+property.faucidflag (C)
 
-property.museumind
+property.viewcode (None)
 
-property.electricitycode
+property.museumind (None)
 
-property.parkingtype
+property.electricitycode (None)
 
-property.ownerstd1relationshiptype
+property.parkingtype (None)
+
+property.ownerstd1relationshiptype (None)
 
 
 ### First American transaction table
 
-transaction.firstamericanuniquetransactionid
+transaction.firstamericanuniquetransactionid (1223988997)
 
-transaction.propertyuniqueid_oldtype
+transaction.propertyuniqueid_oldtype (None)
 
-transaction.fipscode
+transaction.fipscode (34003)
 
-transaction.apn
+transaction.apn (15  01210-0000-00002)
 
-transaction.apnsequencenbr
+transaction.apnsequencenbr (None)
 
-transaction.previousparcelnumber
+transaction.previousparcelnumber (None)
 
-transaction.matchedflag
+transaction.matchedflag (Y)
 
-transaction.housenumber
+transaction.housenumber (130)
 
-transaction.housenumber2
+transaction.housenumber2 (None)
 
-transaction.housenumbersuffix
+transaction.housenumbersuffix (None)
 
-transaction.directionleft
+transaction.directionleft (None)
 
-transaction.streetname
+transaction.streetname (WALNUT)
 
-transaction.suffix
+transaction.suffix (ST)
 
-transaction.directionright
+transaction.directionright (None)
 
-transaction.unittype
+transaction.unittype (None)
 
-transaction.unitnumber
+transaction.unitnumber (None)
 
-transaction.city
+transaction.city (ENGLEWOOD)
 
-transaction.state
+transaction.state (NJ)
 
-transaction.zipcode
+transaction.zipcode (07631)
 
-transaction.buyernameborrowername1
+transaction.buyernameborrowername1 (HORNBLASS ELLIOT J)
 
-transaction.owneretalind
+transaction.owneretalind (None)
 
-transaction.ownercareofname
+transaction.ownercareofname (None)
 
-transaction.corporateindicator2
+transaction.corporateindicator2 (None)
 
-transaction.buyernameborrowername2
+transaction.buyernameborrowername2 (HORNBLASS MELISSA)
 
-transaction.ownershiprightscode2
+transaction.ownershiprightscode2 (None)
 
-transaction.ownerrelationshiptype2
+transaction.ownerrelationshiptype2 (HW)
 
-transaction.buyer1lastname
+transaction.buyer1lastname (HORNBLASS)
 
-transaction.buyer1firstname
+transaction.buyer1firstname (ELLIOT)
 
-transaction.buyer1middlename
+transaction.buyer1middlename (J)
 
-transaction.buyer1suffix
+transaction.buyer1suffix (None)
 
-transaction.buyer2lastname
+transaction.buyer2lastname (HORNBLASS)
 
-transaction.buyer2firstname
+transaction.buyer2firstname (MELISSA)
 
-transaction.buyer2middlename
+transaction.buyer2middlename (None)
 
-transaction.buyer2suffix
+transaction.buyer2suffix (None)
 
-transaction.mailhousenumber
+transaction.mailhousenumber (130)
 
-transaction.mailhousenumber2
+transaction.mailhousenumber2 (None)
 
-transaction.mailhousenumbersuffix
+transaction.mailhousenumbersuffix (None)
 
-transaction.maildirectionleft
+transaction.maildirectionleft (None)
 
-transaction.mailstreetname
+transaction.mailstreetname (WALNUT)
 
-transaction.mailmode
+transaction.mailmode (ST)
 
-transaction.maildirectionright
+transaction.maildirectionright (None)
 
-transaction.mailunittype
+transaction.mailunittype (None)
 
-transaction.mailunitnumber
+transaction.mailunitnumber (None)
 
-transaction.mailcity
+transaction.mailcity (ENGLEWOOD)
 
-transaction.mailstate
+transaction.mailstate (NJ)
 
-transaction.mailzipcode
+transaction.mailzipcode (07631)
 
-transaction.mailzipplus4
+transaction.mailzipplus4 (3012)
 
-transaction.mailcarriercode
+transaction.mailcarriercode (C007)
 
-transaction.recordingdate
+transaction.recordingdate (2015-06-11 00:00:00)
 
-transaction.saledate
+transaction.saledate (2015-05-21 00:00:00)
 
-transaction.documentnumber
+transaction.documentnumber (2015.42526.02)
 
-transaction.recordingbook
+transaction.recordingbook (1963)
 
-transaction.recordingpage
+transaction.recordingpage (752)
 
-transaction.documenttype
+transaction.documenttype (27)
 
-transaction.transactiontype
+transaction.transactiontype (2)
 
-transaction.sellername
+transaction.sellername (RUBIN MARC)
 
-transaction.sellernamecorpindicator
+transaction.sellernamecorpindicator (None)
 
-transaction.sellername2
+transaction.sellername2 (RUBIN JENNIFER MCMILLAN)
 
-transaction.sellername2corpindicator
+transaction.sellername2corpindicator (None)
 
-transaction.saleamount
+transaction.saleamount (3600000)
 
-transaction.salespricecode
+transaction.salespricecode (14)
 
-transaction.resaleflag
+transaction.resaleflag (None)
 
-transaction.newconstructionflag
+transaction.newconstructionflag (None)
 
-transaction.interfamilyflag
+transaction.interfamilyflag (None)
 
-transaction.forclosureflag
+transaction.forclosureflag (None)
 
-transaction.reosaleflag
+transaction.reosaleflag (None)
 
-transaction.firstmortgagerecordingdate
+transaction.firstmortgagerecordingdate (2015-06-11 00:00:00)
 
-transaction.firstmortgagedocdate
+transaction.firstmortgagedocdate (2015-05-21 00:00:00)
 
-transaction.firstmortgagedocumentnumber
+transaction.firstmortgagedocumentnumber (2015.42526.03)
 
-transaction.firstmortgagerecordingbook
+transaction.firstmortgagerecordingbook (1963)
 
-transaction.firstmortgagerecordingpage
+transaction.firstmortgagerecordingpage (758)
 
-transaction.firstmortgagedetaileddocumenttype
+transaction.firstmortgagedetaileddocumenttype (MG)
 
-transaction.firstmortgagemortgageamount
+transaction.firstmortgagemortgageamount (2880000)
 
-transaction.firstmortgagelendername
+transaction.firstmortgagelendername (MORGAN STANLEY PRIVATE BANK NA)
 
-transaction.firstmortgageloantypecode
+transaction.firstmortgageloantypecode (2)
 
-transaction.firstmortgagedetailedloantype
+transaction.firstmortgagedetailedloantype (20)
 
-transaction.firstmortgagetermcode
+transaction.firstmortgagetermcode (M)
 
-transaction.firstmortgageterm
+transaction.firstmortgageterm (299)
 
-transaction.firstmortgageduedate
+transaction.firstmortgageduedate (2040-06-01 00:00:00)
 
-transaction.firstmortgageinterestratetype
+transaction.firstmortgageinterestratetype (ADJ)
 
-transaction.firstmortgageinterestrate
+transaction.firstmortgageinterestrate (00365)
 
-transaction.firstmortgagesellercarrybackflag
+transaction.firstmortgagesellercarrybackflag (None)
 
-transaction.firstmortgageprivatepartylender
+transaction.firstmortgageprivatepartylender (None)
 
-transaction.firstmortgageconstructionloan
+transaction.firstmortgageconstructionloan (None)
 
-transaction.firstmortgagerefiflag
+transaction.firstmortgagerefiflag (None)
 
-transaction.firstmortgageequityflag
+transaction.firstmortgageequityflag (None)
 
-transaction.firstmortgagehelocflag
+transaction.firstmortgagehelocflag (None)
 
-transaction.firstmortgageothersubordinateloanflag
+transaction.firstmortgageothersubordinateloanflag (None)
 
-transaction.firstmortgagesecondhomerider
+transaction.firstmortgagesecondhomerider (None)
 
-transaction.firstmortgagecondominiumrider
+transaction.firstmortgagecondominiumrider (None)
 
-transaction.firstmortgagemultifamily4rider
+transaction.firstmortgagemultifamily4rider (None)
 
-transaction.firstmortgageplannedunitdevelopmentrider
+transaction.firstmortgageplannedunitdevelopmentrider (None)
 
-transaction.firstmortgageassumabilityrider
+transaction.firstmortgageassumabilityrider (None)
 
-transaction.firstmortgageballoonrider
+transaction.firstmortgageballoonrider (None)
 
-transaction.firstmortgagerateimprovementrider
+transaction.firstmortgagerateimprovementrider (None)
 
-transaction.firstmortgagechangeindex
+transaction.firstmortgagechangeindex (None)
 
-transaction.firstmortgagefirstchangedatemonthday
+transaction.firstmortgagefirstchangedatemonthday (None)
 
-transaction.firstmortgagefirstchangedateyear
+transaction.firstmortgagefirstchangedateyear (None)
 
-transaction.firstmortgageinterestonlyperiod
+transaction.firstmortgageinterestonlyperiod (None)
 
-transaction.firstmortgagemaximuminterestrate
+transaction.firstmortgagemaximuminterestrate (None)
 
-transaction.firstmortgageminimuminterestrate
+transaction.firstmortgageminimuminterestrate (None)
 
-transaction.firstmortgageratechangefrequency
+transaction.firstmortgageratechangefrequency (None)
 
-transaction.secondmortgagerecordingdate
+transaction.secondmortgagerecordingdate (None)
 
-transaction.secondmortgagedocdate
+transaction.secondmortgagedocdate (None)
 
-transaction.secondmortgagedocumentnumber
+transaction.secondmortgagedocumentnumber (None)
 
-transaction.secondmortgagerecordingbook
+transaction.secondmortgagerecordingbook (None)
 
-transaction.secondmortgagerecordingpage
+transaction.secondmortgagerecordingpage (None)
 
-transaction.secondmortgagedetaileddocumenttype
+transaction.secondmortgagedetaileddocumenttype (None)
 
-transaction.secondmortgageamount
+transaction.secondmortgageamount (0)
 
-transaction.secondmortgagelendername
+transaction.secondmortgagelendername (None)
 
-transaction.secondmortgageloantypecode
+transaction.secondmortgageloantypecode (None)
 
-transaction.secondmortgagedetailedloantype
+transaction.secondmortgagedetailedloantype (None)
 
-transaction.secondmortgagetermcode
+transaction.secondmortgagetermcode (None)
 
-transaction.secondmortgageterm
+transaction.secondmortgageterm (None)
 
-transaction.secondmortgageduedate
+transaction.secondmortgageduedate (None)
 
-transaction.secondmortgageinterestratetype
+transaction.secondmortgageinterestratetype (None)
 
-transaction.secondmortgageinterestrate
+transaction.secondmortgageinterestrate (None)
 
-transaction.secondmortgagesellercarryback
+transaction.secondmortgagesellercarryback (None)
 
-transaction.secondmortgageprivatepartylender
+transaction.secondmortgageprivatepartylender (None)
 
-transaction.secondmortgageconstructionloan
+transaction.secondmortgageconstructionloan (None)
 
-transaction.secondmortgagerefiflag
+transaction.secondmortgagerefiflag (None)
 
-transaction.secondmortgageequityflag
+transaction.secondmortgageequityflag (None)
 
-transaction.secondmortgagehelocflag
+transaction.secondmortgagehelocflag (None)
 
-transaction.secondmortgageothersubordinateloanflag
+transaction.secondmortgageothersubordinateloanflag (None)
 
-transaction.secondmortgagesecondhomerider
+transaction.secondmortgagesecondhomerider (None)
 
-transaction.secondmortgagecondominiumrider
+transaction.secondmortgagecondominiumrider (None)
 
-transaction.secondmortgagemultifamily4rider
+transaction.secondmortgagemultifamily4rider (None)
 
-transaction.secondmortgageplannedunitdevelopmentrider
+transaction.secondmortgageplannedunitdevelopmentrider (None)
 
-transaction.secondmortgageassumabilityrider
+transaction.secondmortgageassumabilityrider (None)
 
-transaction.secondmortgageballoonrider
+transaction.secondmortgageballoonrider (None)
 
-transaction.secondmortgagebiweeklypaymentrider
+transaction.secondmortgagebiweeklypaymentrider (None)
 
-transaction.secondmortgagefixedstepraterider
+transaction.secondmortgagefixedstepraterider (None)
 
-transaction.secondmortgagegraduatedpaymentrider
+transaction.secondmortgagegraduatedpaymentrider (None)
 
-transaction.secondmortgageprepaymentrider
+transaction.secondmortgageprepaymentrider (None)
 
-transaction.secondmortgagerateimprovementrider
+transaction.secondmortgagerateimprovementrider (None)
 
-transaction.secondmortgagechangeindex
+transaction.secondmortgagechangeindex (None)
 
-transaction.secondmortgagefirstchangedatemonthday
+transaction.secondmortgagefirstchangedatemonthday (None)
 
-transaction.secondmortgagefirstchangedateyear
+transaction.secondmortgagefirstchangedateyear (None)
 
-transaction.secondmortgageinterestonlyperiod
+transaction.secondmortgageinterestonlyperiod (None)
 
-transaction.secondmortgagemaximuminterestrate
+transaction.secondmortgagemaximuminterestrate (None)
 
-transaction.secondmortgageminimuminterestrate
+transaction.secondmortgageminimuminterestrate (None)
 
-transaction.secondmortgageratechangefrequency
+transaction.secondmortgageratechangefrequency (None)
 
-transaction.block
+transaction.block (1210)
 
-transaction.lotnumber
+transaction.lotnumber (None)
 
-transaction.firstmortgagebiweeklypaymentrider
+transaction.firstmortgagebiweeklypaymentrider (None)
 
-transaction.landlot
+transaction.landlot (2)
 
-transaction.ucid
+transaction.ucid (U)
 
-transaction.assessorsmapref
+transaction.assessorsmapref (None)
 
-transaction.multiapn
+transaction.multiapn (None)
 
-transaction.transfertax
+transaction.transfertax (4103500)
 
-transaction.taxaccountnumber
+transaction.taxaccountnumber (None)
 
-transaction.section
+transaction.section (None)
 
-transaction.district
+transaction.district (None)
 
-transaction.unit
+transaction.unit (None)
 
-transaction.lotcode
+transaction.lotcode (None)
 
-transaction.hawaiilandcourtdocumentnumber
+transaction.hawaiilandcourtdocumentnumber (None)
 
-transaction.updatetimestamp
+transaction.updatetimestamp (2020-01-31 00:00:00)
 
-transaction.partialinterestindicatorflag
+transaction.partialinterestindicatorflag (None)
 
-transaction.subdivisionname
+transaction.subdivisionname (None)
 
-transaction.zipplus4
+transaction.zipplus4 (3012)
 
-transaction.firstmortgagefixedstepraterider
+transaction.firstmortgagefixedstepraterider (None)
 
-transaction.firstmortgagegraduatedpaymentrider
+transaction.firstmortgagegraduatedpaymentrider (None)
 
-transaction.tractno
+transaction.tractno (None)
 
-transaction.waexcisenumber
+transaction.waexcisenumber (None)
 
-transaction.titlecompanyname
+transaction.titlecompanyname (COMMONWEALTH LAND TITLE)
 
-transaction.secondmortgageadjustableraterider
+transaction.secondmortgageadjustableraterider (None)
 
-transaction.sectwnrngmer
+transaction.sectwnrngmer (None)
 
-transaction.citymunicipalitytownship
+transaction.citymunicipalitytownship (ENGLEWOOD)
 
-transaction.firstmortgageadjustablerateindex
+transaction.firstmortgageadjustablerateindex (None)
 
-transaction.legaldescription
+transaction.legaldescription (None)
 
-transaction.firstmortgageadjustableraterider
+transaction.firstmortgageadjustableraterider (Y)
 
-transaction.hawaiitctcertificatenumber
+transaction.hawaiitctcertificatenumber (None)
 
-transaction.ownerrelationshiptype1
+transaction.ownerrelationshiptype1 (HW)
 
-transaction.firstmortgageprepaymentrider
+transaction.firstmortgageprepaymentrider (None)
 
-transaction.phaseno
+transaction.phaseno (None)
 
-transaction.carriercode
+transaction.carriercode (C007)
 
-transaction.corporateindicator
+transaction.corporateindicator (None)
 
-transaction.secondmortgageadjustablerateindex
+transaction.secondmortgageadjustablerateindex (None)
 
-transaction.ownershiprightscode1
+transaction.ownershiprightscode1 (None)
 
-transaction.ownerstd1relationshiptype
+transaction.ownerstd1relationshiptype (None)
 
-transaction.propertyuniqueid
+transaction.propertyuniqueid (84642073)
 
-(1223988997, None, '34003', '15  01210-0000-00002', None, None, 'Y', '130', None, None, None, 'WALNUT', 'ST', None, None, None, 'ENGLEWOOD', 'NJ', '07631', 'HORNBLASS ELLIOT J', None, None, None, 'HORNBLASS MELISSA', None, 'HW', 'HORNBLASS', 'ELLIOT', 'J', None, 'HORNBLASS', 'MELISSA', None, None, '130', None, None, None, 'WALNUT', 'ST', None, None, None, 'ENGLEWOOD', 'NJ', '07631', '3012', 'C007', datetime.datetime(2015, 6, 11, 0, 0), datetime.datetime(2015, 5, 21, 0, 0), '2015.42526.02', '1963', '752', '27', '2', 'RUBIN MARC', None, 'RUBIN JENNIFER MCMILLAN', None, '3600000', '14', None, None, None, None, None, datetime.datetime(2015, 6, 11, 0, 0), datetime.datetime(2015, 5, 21, 0, 0), '2015.42526.03', '1963', '758', 'MG', '2880000', 'MORGAN STANLEY PRIVATE BANK NA', '2', '20', 'M', '299', datetime.datetime(2040, 6, 1, 0, 0), 'ADJ', '00365', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 0, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, '1210', None, None, '2', 'U', None, None, '4103500', None, None, None, None, None, None, datetime.datetime(2020, 1, 31, 0, 0), None, None, '3012', None, None, None, None, 'COMMONWEALTH LAND TITLE', None, None, 'ENGLEWOOD', None, None, 'Y', None, 'HW', None, None, 'C007', None, None, None, None, 84642073)
 
 ### mls price_change table
 
-price_change.cc_property_id
+price_change.cc_property_id (69707339)
 
-price_change.old_price
+price_change.old_price (198000)
 
-price_change.new_price
+price_change.new_price (195000)
 
-price_change.price_change
+price_change.price_change (-3000)
 
-price_change.date
-
+price_change.date (2019-04-23)
 
 
