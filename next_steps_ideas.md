@@ -65,7 +65,21 @@ https://en.wikipedia.org/wiki/Moran%27s_I
 
 http://darribas.org/gds_scipy16/ipynb_md/05_spatial_dynamics.html
 
-(I think REX has geographical coordinates of each zipcode)
+(aside: I think REX has geographical coordinates of each zipcode)
+
+http://www.stat.columbia.edu/~gelman/research/published/bym_article_SSTEproof.pdf
+
+https://mc-stan.org/users/documentation/case-studies/icar_stan.html
+
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.488.398&rep=rep1&type=pdf
+
+https://www.hindawi.com/journals/mpe/2020/7135142/
+
+https://cancerqld.blob.core.windows.net/content/docs/Investigation-of-Bayesian-spatial-models.pdf
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5839164/
+
+https://arxiv.org/pdf/1807.06111.pdf
 
 e. temporal-spatial analysis 
 
