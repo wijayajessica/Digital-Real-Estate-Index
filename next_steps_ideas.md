@@ -46,6 +46,7 @@ Influence of zipcode-level factors:
 10. quality of schools
 
 (https://www.neighborhoodscout.com/) <- need a subscription
+
 (https://www.city-data.com/) <- free
 
 We can include these as predictors in a Poisson regression model, where one observation
