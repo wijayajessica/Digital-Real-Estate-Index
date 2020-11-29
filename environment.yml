@@ -27,3 +27,10 @@ dependencies:
     - pgeocode
     - pytrends >= 4.7.3
     - uszipcode >= 0.2.4
+    - dm-tree >= 0.1.5
+    - cloudpickle >= 1.6.0 
+    - decorator >= 4.4.2 
+    - gast >= 0.4.0 
+    - tensorflow-probability >= 0.11.1
+    - pmdarima >= 1.7.1
+    
