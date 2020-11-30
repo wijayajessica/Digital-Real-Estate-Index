@@ -34,6 +34,8 @@ MARITAL STATUS -> marital_status.csv
 
 MORTGAGE STATUS -> mortgage_status.csv
 
+FINANCIAL CHARACTERISTICS FOR HOUSING UNITS WITH A MORTGAGE -> mortgage_amount.csv
+
 YEAR STRUCTURE BUILT -> year_built.csv
 
 AGE AND SEX (all years since 2010) -> folder called age_demographics_2010_2018
