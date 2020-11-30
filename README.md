@@ -18,7 +18,7 @@ ACS demographic and housing estimates -> racial_demographics.csv
 
 Fertility -> fertility.csv
 
-MEANS OF TRANSPORTATION TO WORK BY TENURE -> commuting_mode.csv
+MEANS OF TRANSPORTATION TO WORK BY TENURE or MEANS OF TRANSPORTATION TO WORK BY AGE -> commuting_mode.csv
 
 INCOME IN THE PAST 12 MONTHS -> income.csv
 
