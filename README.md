@@ -1,5 +1,7 @@
 # Digital Real Estate Index
 
+For the most updated csv data and technical reports/presentation slides, go to this [goggle drive shared folder](https://drive.google.com/drive/u/2/folders/0ADNiRHNQgWGcUk9PVA)
+
 Instructions:
 
 In order to produce a forecast for a given market area please, please follow the steps below:
@@ -38,9 +40,3 @@ AGE AND SEX (all years since 2010) -> folder called age_demographics_2010_2018
 
 
 4. create new notebook called `[insert market area name here]_census_tract_features.ipynb` to preprocess the census tract features from NeighborhoodScout and the Census Bureau. Because the census tracts features of each market area have different issues, this is not an automatic process. Instead, you need to run the notebook cell by cell to ensure that the notebook catches all the typical issues (missing data, etc.) and need to write code to resolve any other issues that come up. 
-
-
-
-
-
-
