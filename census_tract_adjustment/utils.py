@@ -19,7 +19,7 @@ def load_data(url):
 	
 	return df
 
-def preprocess_data(df, listings, ):
+def preprocess_data(df, listings):
 
 	# preprocess listing dataset
 	listings['ct_key'] = listings['ct_key'].astype('int')
