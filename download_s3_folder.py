@@ -13,3 +13,4 @@ def downloadDirectoryFroms3(bucketName, remoteDirectoryName):
             bucket.download_file(obj.key, obj.key)
 
 downloadDirectoryFroms3('rex-harvard-iacs', 'index-team-data/')
+
