@@ -37,7 +37,7 @@ The first step is to collect all of the census tract level data that isn't provi
 
 3. See `ct_model_evaluation.ipynb` if you'd like to compare the performance of the census tract adjustment model to the baseline model that makes the same prediction for each census tract.
 
-4. See Jessica's notebooks...
+4. See `Modelling_Boosting_Denver.ipynb` and `Modelling_Boosting_Atlanta.ipynb` if you'd like to see how we can use XGBoost and LightGBM to make the same predictions for listings and sales rate for each census tract, and how to use these models to interpret the role of each features in driving the listings and sales rate. We can build visualization of the census tract feature contribution for each census tract to understand how we came down to the predicted values for listings or sales rate for each census tract. (Note that the code and algorithm used to build model and visualizations are in `utils.py` and `gradient_boosting.py`)
 
 5. See `census_tract_explainer_linear_regression.ipynb` if you'd like to see the subpar results from using a linear regression model to explain how each of the census tract features contributes to the average ratios of the census tracts. 
 
