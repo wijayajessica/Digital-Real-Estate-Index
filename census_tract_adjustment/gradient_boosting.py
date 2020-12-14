@@ -158,7 +158,7 @@ class XGB_model:
 			ax.set_title("XGBoost")
 
 
-	def plot_feature_contribution(self, sample_idx, n_features = 30):
+	def plot_feature_contribution(self, sample_idx, n_features = 30, ylabel=""):
 		# output prediction (contribution of each feature for each test data)
 		booster = self.model.get_booster()
 		test_X = DMatrix(self.X_test_normalized, feature_names=self.X_test_normalized.columns)
@@ -170,11 +170,12 @@ class XGB_model:
 		top_features = self.model.feature_importances_.argsort()[::-1][:n_features] #select top 30 features chosen by XGB model
 		
 		axes[0].set_title(f"Census Tract {self.df_test_pred.iloc[sample_idx[0]]['ct_key']}")
-		# axes[0].set_ylim([0.6,1.4])
+		axes[0].set_ylabel(ylabel)
 		plot_contribution(sample_idx[0], axes[0], top_features, listing_predictions_contrib_XGB, self.X_test_normalized)
 		axes[1].set_title(f"Census Tract {self.df_test_pred.iloc[sample_idx[1]]['ct_key']}")
-		# axes[1].set_ylim([0.6,1.4])
+		axes[1].set_ylabel(ylabel)
 		plot_contribution(sample_idx[1], axes[1], top_features, listing_predictions_contrib_XGB, self.X_test_normalized)
+            
 
 
 # ------------------------------------------------------------------------------------
@@ -306,7 +307,7 @@ class LGBM_model:
 			ax.set_title("Light GBM")
 
 
-	def plot_feature_contribution(self, sample_idx, n_features = 30):
+	def plot_feature_contribution(self, sample_idx, n_features = 30, ylabel=""):
 
 		# output prediction (contribution of each feature for each test data)
 		listing_predictions_contrib_LGBM = self.model.predict(self.X_test_normalized, pred_contrib=True)
@@ -317,8 +318,10 @@ class LGBM_model:
 		top_features = self.model.feature_importances_.argsort()[::-1][:n_features] #select top 30 features chosen by LGBM model
 		
 		axes[0].set_title(f"Census Tract {self.df_test_pred.iloc[sample_idx[0]]['ct_key']}")
+		axes[0].set_ylabel(ylabel)       
 		plot_contribution(sample_idx[0], axes[0], top_features, listing_predictions_contrib_LGBM, self.X_test_normalized)
 		axes[1].set_title(f"Census Tract {self.df_test_pred.iloc[sample_idx[1]]['ct_key']}")
+		axes[1].set_ylabel(ylabel)      
 		plot_contribution(sample_idx[1], axes[1], top_features, listing_predictions_contrib_LGBM, self.X_test_normalized)
 
 
