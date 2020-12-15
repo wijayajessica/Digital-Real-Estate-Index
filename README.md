@@ -13,3 +13,15 @@ This project is organized into 4 sections:
 4. Create forecast for each census tract (see `census_tract_forecasting` directory)
 
 Each of these directory has its own README.md file that explains how to navigate the directory. 
+
+If you just cloned this repo, please run `download_s3_folder.py`, which will download all the raw data needed to make the forecasts from the `rex-harvard-iacs` S3 bucket. 
+
+Final deliverables:
+
+Poster: https://drive.google.com/file/d/1oohe8HQXUZPC6AL9CHYwEingGkdkEasL/view?usp=sharing
+
+Video recording: https://drive.google.com/file/d/19a60NgLgeERvAb3CxJ8jmYxK0weiSKsG/view?usp=sharing
+
+Presentation: https://docs.google.com/presentation/d/1vMTioS1wYIG7Xj88I6ZR2TRa2yQxVplouIxZErW4j5I/edit?usp=sharing
+
+Blog post:
