@@ -18,10 +18,10 @@ If you just cloned this repo, please run `download_s3_folder.py`, which will dow
 
 Final deliverables:
 
-Poster:
+Poster: https://drive.google.com/file/d/1oohe8HQXUZPC6AL9CHYwEingGkdkEasL/view?usp=sharing
 
-Video recording:
+Video recording: 
 
-Presentation:
+Presentation: https://docs.google.com/presentation/d/1vMTioS1wYIG7Xj88I6ZR2TRa2yQxVplouIxZErW4j5I/edit?usp=sharing
 
 Blog post:
