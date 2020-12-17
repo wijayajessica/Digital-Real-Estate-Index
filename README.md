@@ -24,4 +24,4 @@ Video recording: [Link to MP4](https://drive.google.com/file/d/19a60NgLgeERvAb3C
 
 Presentation: [PDF](https://drive.google.com/file/d/1WSmV0U0D4Ih0v9ZXOth2kf6o2GmhrfBm/view?usp=sharing)| [PPTX](https://docs.google.com/presentation/d/1vMTioS1wYIG7Xj88I6ZR2TRa2yQxVplouIxZErW4j5I/edit?usp=sharing)
 
-Blog post: [Link to Story on Medium](https://willfried.medium.com/towards-a-revamped-real-estate-index-c48ae27b33c5)
+Blog post: [Link to Story on Medium](https://towardsdatascience.com/towards-a-revamped-real-estate-index-c48ae27b33c5)
