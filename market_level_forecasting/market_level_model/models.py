@@ -102,6 +102,7 @@ class linearModel(baseModel):
 
     def predict(self,x,standardise =True):
         if self.model == None:
+            print('Questionable models: not informative features!')
             return np.zeros(x.shape[0])
         else:
             if standardise == True:
@@ -347,7 +348,7 @@ class rollingTimeSeriesModel(BTSM,rollingModel):
 
 
 class rollingCombinedModel(BTSM, rollingModel):
-    def __init__(self,df,predict_horizon_total, predict_horizon, feature_column_names, target_column,modelName='linear', lead_target=True):
+    def __init__(self,df,predict_horizon_total, predict_horizon, feature_column_names, target_column,modelName='linear', lead_target=True, params=[0.5,0.5]):
         rollingModel.__init__(self,df,predict_horizon, target_column, feature_column_names, modelName,lead_target)
         BTSM.__init__(self,)
         self.df = df
@@ -355,6 +356,7 @@ class rollingCombinedModel(BTSM, rollingModel):
         self.predict_horizon = predict_horizon
         self.target_column = target_column
         self.feature_column_names = feature_column_names
+        self.params = params
     def rolling_prediction(self,start_predict_group, end_predict_group):
         groups_train, groups_test = rollingModel.model_split(self,self.df[self.feature_column_names],self.df[self.target_column],time_cv=self.predict_horizon_total,return_idx=False)
         pred_ahead_store = []
@@ -367,23 +369,32 @@ class rollingCombinedModel(BTSM, rollingModel):
             rollingModel.fit(self,x,y)
             #print('fit good!')
             pred, pred_1, pred1_scale, pred1_samples = rollingModel.fit_predict(self,x,y)
+            BTSM.fit(self,y.values.astype(float),0)
+            pred_ts, pred_scale_ts, pred_samples_ts = BTSM.predict(self,np.ones(self.predict_horizon))
+            pred_com = self.params[0]*np.array(pred_1)+self.params[1]*pred_ts
+            pred_com_scale = self.params[0]*pred1_scale+self.params[1]*pred_scale_ts
             #print('predict good!')
-            x = np.append(groups_train[i][1].values.astype(float), pred_1)
+            x = np.append(groups_train[i][1].values.astype(float), pred_com)
             BTSM.fit(self,x,0)
             pred_2, pred2_scale, pred2_samples = BTSM.predict(self,np.ones(self.predict_horizon_total-self.predict_horizon))
-            pred_ahead_store.extend(np.append(pred_1, pred_2))
+            pred_ahead_store.extend(np.append(pred_com, pred_2))
             #print('ts shape.', np.array(pred2_samples).shape)
             #print('1 shape', np.array(pred1_samples).shape)
             pred_samples_store.extend(np.hstack((pred1_samples, pred2_samples)))
-            pred_scale_store.extend(np.append(pred1_scale, pred1_scale))
+            pred_scale_store.extend(np.append(pred_com_scale, pred2_scale))
             print(i)
-        return pred_ahead_store, pred_scale_store ,pred_samples_store
+        return pred_ahead_store, pred_scale_store, pred_samples_store
     def make_prediction(self,x,y):
         rollingModel.fit(self,x,y)
         pred, pred_1, pred1_scale, pred1_samples = rollingModel.fit_predict(self,x,y)
-        x = np.append(y.values.astype(float), pred_1)
+        BTSM.fit(self,y,0)
+        pred_ts, pred_scale_ts, pred_samples_ts = BTSM.predict(self,np.ones(self.predict_horizon))
+        pred_com = self.params[0]*np.array(pred_1)+self.params[1]*pred_ts
+        pred_com_scale = self.params[0]*pred1_scale+self.params[1]*pred_scale_ts
+        #pred_com_samples = 
+        x = np.append(y.values.astype(float), pred_com)
         BTSM.fit(self,x,0)
         pred_2, pred2_scale, pred2_samples = BTSM.predict(self,np.ones(self.predict_horizon_total-self.predict_horizon))
-        return np.append(pred_1, pred_2), np.append(pred1_scale, pred1_scale), np.hstack((pred1_samples, pred2_samples))
+        return np.append(pred_com, pred_2), np.append(pred_com_scale, pred2_scale), np.hstack((pred1_samples, pred2_samples))
 
   
